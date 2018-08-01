@@ -1,0 +1,176 @@
+/* ==== MIXINS ==== */
+/* ==== VARIABLE ==== */
+/* ==== PLUGIN ==== */
+/* ==== BASE ==== */
+body {
+  color: #555;
+}
+
+.display-1 {
+  color: #fafafa;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.lead {
+  color: #fafafa;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+
+.hello {
+  background-color: #47ada0;
+  height: 500px;
+  border-top: 7px solid #e44f47;
+}
+
+.about {
+  background-color: #ede5d8;
+  height: 100%;
+}
+
+.project {
+  background-color: #e44f47;
+  height: 400px;
+}
+
+.our-products {
+  background-color: #e44f47;
+  height: 400px;
+}
+
+.img-size {
+  width: 60px;
+}
+
+.img-logo-size {
+  width: 50px;
+}
+
+.logo-spacing {
+  line-height: 40%;
+  margin-left: -35px;
+}
+
+.contact {
+  background-color: #ede5d8;
+  height: 100%;
+}
+
+/* ==== ABOUT ==== */
+/* ==== BANNER ==== */
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: #fafafa;
+  margin: 60px auto 20px auto;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+}
+.box img {
+  display: block;
+  margin: 20% auto;
+}
+
+.box-1 {
+  background-color: #fafafa;
+}
+
+.box-2 {
+  background-color: #47ada0;
+}
+
+.skill {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    width: 90px;
+    height: 90px;
+  }
+
+  .skill {
+    font-size: 0.9rem;
+  }
+}
+.about-us h2 {
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0 auto 30px auto;
+  padding-bottom: 20px;
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.about-us {
+  width: 75%;
+  background-color: #fafafa;
+  padding: 20px;
+  margin-top: -110px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 2px 5px 5px #dcdcdc;
+}
+
+.project-text {
+  font-size: 1.2rem;
+  color: #fafafa;
+  text-align: center;
+  padding: 0 90px;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-text {
+    padding: 0 20px;
+  }
+}
+.people {
+  background-color: #ede5d8;
+  height: 450px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.person {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fafafa;
+  margin: 0 auto 20px auto;
+}
+
+.person-details {
+  margin-top: 30px;
+}
+
+.details {
+  color: #fafafa;
+}
+
+.social-media, i {
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 20px;
+  text-align: left;
+}
+
+.footer {
+  position: bottom;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #47ada0;
+  color: white;
+  text-align: center;
+}
+.footer p {
+  padding-top: 10px;
+}
+
+/* ==== PICTURE ==== */
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,9 @@
+/* ==== MIXINS ==== */
+
+@mixin sexsy-text {
+	-webkit-font-smooting: antialiased;
+	   -moz-font-smooting: antialiased;
+	        font-smooting: antialiased;
+	text-rendering: optimizelegibility;
+}
+

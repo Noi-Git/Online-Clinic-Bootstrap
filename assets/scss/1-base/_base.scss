@@ -1,0 +1,57 @@
+/* ==== BASE ==== */
+body {
+  color: $dark-gray;
+}
+.display-1 {
+  color: $white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.lead {
+  color: $white;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+}
+.hello {
+  background-color: $bg-blue;
+  height: 500px;
+  border-top: 7px solid $orange;
+}
+
+.about {
+  background-color: $bg-gray;
+  height: 100%;
+}
+
+.project {
+  background-color: $orange;
+  height: 400px;
+}
+
+.our-products {
+  background-color: $orange;
+  height: 400px;
+}
+
+.img-size {
+  width: 60px;
+}
+
+.img-logo-size {
+  width: 50px;
+}
+
+.logo-spacing {
+  line-height: 40%;
+  margin-left: -35px;
+}
+
+.contact {
+  background-color: $bg-gray;
+  height: 100%;
+  // padding-top: 40px;
+}
